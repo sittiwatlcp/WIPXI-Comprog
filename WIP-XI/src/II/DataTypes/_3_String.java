@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package III.Output;
+package II.DataTypes;
 
 /**
  *
  * @author sittiwatlcp
  */
-public class _2_Printf {
+public class _3_String {
     public static void main(String[] args) {
         String firstName = "Wippo";
         String lastName = "Ontour";
         String nickName = "Wip";
-        double ownWallet = 200.746352;
-        double friendWallet = 500.947855;
         
-        System.out.printf("สวัสดี เราชื่อ %s %s (%s) เรามีเงิน %f บาท และเพิ่อนเรามีเงิน %.2f บาท \n", firstName, lastName, nickName, ownWallet, friendWallet);
+        System.out.println("firstName : " + firstName);
+        System.out.println("lastName : " + lastName);
+        System.out.println("nickName : " + nickName);
+        
+        System.out.println("Hi! my name is " + firstName + lastName + " (" + nickName + ").");
     }
 }
