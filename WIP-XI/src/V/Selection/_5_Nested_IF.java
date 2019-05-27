@@ -8,8 +8,9 @@ package V.Selection;
  *
  * @author sittiwatlcp
  */
-public class Selection {
+public class _5_Nested_IF {
     public static void main(String[] args) {
+        
         boolean ตื่นสาย = true;
         boolean มีเงินค่ารถ = false;
         boolean เดินไปโรงเรียนทัน = false;
